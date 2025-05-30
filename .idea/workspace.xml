@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0d9601a-1d88-4173-9827-929c40b0703f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/arquivos/resultados/bubble_sort.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquivos/resultados/insertion_sort.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arquivos/resultados/merge_sort.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EscritorResultados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivos/inteiros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivos/inteiros.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f0d9601a-1d88-4173-9827-929c40b0703f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +93,7 @@
       <updated>1748472489628</updated>
       <workItem from="1748472490730" duration="2101000" />
       <workItem from="1748476712581" duration="845000" />
-      <workItem from="1748560613936" duration="2872000" />
+      <workItem from="1748560613936" duration="3241000" />
     </task>
     <servers />
   </component>
