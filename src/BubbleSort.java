@@ -1,5 +1,5 @@
 public class BubbleSort {
-    public static void index(int[] vetor){
+    public static ResultadoOrdenacao index(int[] vetor){
         // Início cronômetro
         long inicio = System.nanoTime();
 
@@ -17,20 +17,6 @@ public class BubbleSort {
         // Fim cronômetro
         long fim = System.nanoTime();
 
-        // Cálculo de tempo
-        long duracaoEmNano = fim - inicio;
-        double duracaoEmMillis = duracaoEmNano / 1_000_000.0;
-
-        // Impressão de resultados
-        System.out.println("------------------- BUBBLE SORT ------------------");
-        System.out.println("|                                                |");
-        System.out.println("| Tempo (ms): " + duracaoEmMillis);
-        System.out.println("|                                                |");
-        System.out.println("##################################################");
-        System.out.println();
-
-        // Arquivo com resultado ordenado
-        String nomeArquivo = "bubble_sort.txt";
-        EscritorResultados.index(vetor, nomeArquivo);
+        return new ResultadoOrdenacao(inicio, fim, vetor);
     }
 }

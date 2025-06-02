@@ -5,8 +5,11 @@ public class Main {
         //Criação de vetor
         int[] vetor = LeitorArquivo.lerInteiros("arquivos/inteiros.txt");
 
+        String[] scripts = {"BUBBLE", "INSERTION"};
+
+        Ordenador.index(vetor, scripts);
         // Execução de scripts
          InsertionSort.index(vetor);
-         BubbleSort.index(vetor);
+
     }
 }
