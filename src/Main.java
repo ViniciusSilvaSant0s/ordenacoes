@@ -7,5 +7,6 @@ public class Main {
 
         // Execução de scripts
          InsertionSort.index(vetor);
+         BubbleSort.index(vetor);
     }
 }
