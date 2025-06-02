@@ -1,19 +1,34 @@
+package algoritmos;
+
+import io.EscritorResultados;
+import model.ResultadoOrdenacao;
+
 public class Ordenador {
     public static void index(int[] vetor, String[] scripts){
         ResultadoOrdenacao resultados = null;
         String nomeArquivo = null;
 
+        // Cópia do vetor
+        int[] vetorOriginal = vetor.clone();
+
         for(int i = 0; i < scripts.length; i++){
+            // Vetor para ser ordenado
+            int[] vetorParaOrdenar = vetorOriginal.clone();
+
             switch (scripts[i]){
                 case "BUBBLE":
-                    resultados = BubbleSort.index(vetor);
+                    resultados = BubbleSort.index(vetorParaOrdenar);
                     nomeArquivo = "bubble_sort.txt";
                     break;
 
                 case "INSERTION":
-                    resultados = InsertionSort.index(vetor);
+                    resultados = InsertionSort.index(vetorParaOrdenar);
                     nomeArquivo = "insertion_sort.txt";
                     break;
+
+                case "MERGE":
+                    resultados = MergeSort.index(vetorParaOrdenar);
+                    nomeArquivo = "merge_sort.txt";
             }
             imprimeResultados(scripts[i], resultados,  nomeArquivo);
         }

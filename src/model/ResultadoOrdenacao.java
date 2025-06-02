@@ -1,9 +1,11 @@
+package model;
+
 public class ResultadoOrdenacao {
     private long inicio;
     private long fim;
     private int[] vetor;
 
-    ResultadoOrdenacao(long inicio, long fim, int[] vetor) {
+    public ResultadoOrdenacao(long inicio, long fim, int[] vetor) {
         this.inicio = inicio;
         this.fim = fim;
         this.vetor = vetor;

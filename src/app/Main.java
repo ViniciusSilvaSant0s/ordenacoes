@@ -1,3 +1,7 @@
+package app;
+
+import algoritmos.Ordenador;
+import io.LeitorArquivo;
 import java.io.FileNotFoundException;
 
 public class Main {
@@ -5,11 +9,10 @@ public class Main {
         //Criação de vetor
         int[] vetor = LeitorArquivo.lerInteiros("arquivos/inteiros.txt");
 
-        String[] scripts = {"BUBBLE", "INSERTION"};
+        // Sorts
+        String[] scripts = {"BUBBLE", "INSERTION", "MERGE"};
 
-        Ordenador.index(vetor, scripts);
         // Execução de scripts
-         InsertionSort.index(vetor);
-
+        Ordenador.index(vetor, scripts);
     }
 }

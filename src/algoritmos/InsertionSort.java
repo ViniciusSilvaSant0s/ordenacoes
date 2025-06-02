@@ -1,3 +1,7 @@
+package algoritmos;
+
+import model.ResultadoOrdenacao;
+
 public class InsertionSort {
     public static ResultadoOrdenacao index(int[] vetor){
         // Início cronômetro
